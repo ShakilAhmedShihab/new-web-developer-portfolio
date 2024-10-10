@@ -1,0 +1,139 @@
+.open-sans > {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Nav styles */
+
+.bg-secondary {
+  background: #fff8f3;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+.universal-button {
+  /* width: 150px; */
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  font-weight: 700;
+  padding: 18px 35px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.r {
+  color: #fd6e0a;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+nav li a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* end of nav */
+
+/* banner */
+
+.banner {
+  margin: 0px 30px 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-header {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 5px;
+}
+.banner-header2 {
+  color: var(--Dark-01, #181818);
+  font-family: "Open Sans";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 585px;
+  margin-bottom: 30px;
+}
+
+/* Main section */
+main{                               /*  to center all section */
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shared-title {
+  color: var(--Dark-01, #181818);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.shared-description {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about {
+  height: 550px;
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+}
+.item-description{
+  color: var(--Dark-02, #474747);
+  font-size: 20px;
+  font-weight: 700;
+}
+.item-name{
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-items{
+  display: flex;
+  justify-content: space-between;
+}
